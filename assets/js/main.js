@@ -4,7 +4,7 @@ function Calculadora() {
   this.inicia = () => {
     this.capturaCliques();
     this.capturaEnter();
-  }
+  };
 
   this.capturaEnter = () => {
     document.addEventListener('keyup', e => {
